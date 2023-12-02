@@ -1,0 +1,463 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pl' Physical Memory: 8087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kuba/Endless_runner/Endless Runner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63523
+Successfully changed project path to: C:/Users/Kuba/Endless_runner/Endless Runner
+C:/Users/Kuba/Endless_runner/Endless Runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15256] Host "[IP] 192.168.100.1 [Port] 0 [Flags] 2 [Guid] 448698163 [EditorId] 448698163 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MA2U3GH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15256] Host "[IP] 192.168.100.1 [Port] 0 [Flags] 2 [Guid] 448698163 [EditorId] 448698163 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MA2U3GH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 23.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kuba/Endless_runner/Endless Runner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     4055 MB
+    Driver:   24.21.13.9835
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028020 seconds.
+- Loaded All Assemblies, in  0.794 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1553ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.516 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.311 seconds
+Domain Reload Profiling: 2821ms
+	BeginReloadAssembly (360ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (954ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (383ms)
+				TypeCache.ScanAssembly (352ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1312ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (682ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 8.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.7 KB). Loaded Objects now: 3545.
+Memory consumption went from 121.8 MB to 121.8 MB.
+Total: 4.366000 ms (FindLiveObjects: 0.315600 ms CreateObjectMapping: 0.395000 ms MarkObjects: 3.396500 ms  DeleteObjects: 0.256900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1034568.710132 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_I_2_Prefab.prefab
+  artifactKey: Guid(1e198ff9400b5064c816d8f779eff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_I_2_Prefab.prefab using Guid(1e198ff9400b5064c816d8f779eff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f366001d9e25eca7e856b4834fe7b108') in 0.248601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Simple city plain/Prefabs/Gas_station_A_PREFAB.prefab
+  artifactKey: Guid(01bbe20c855564648b02e0092e511cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Gas_station_A_PREFAB.prefab using Guid(01bbe20c855564648b02e0092e511cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b641bf80c1aef4a30a05f6d0594f9f') in 0.038276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Simple city plain/Mesh/Sidewalk_05.fbx
+  artifactKey: Guid(5b37bebced2befa4cb0fa7e92016e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Sidewalk_05.fbx using Guid(5b37bebced2befa4cb0fa7e92016e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1487a4b07d3bc9b12c22dc2be285398e') in 0.057462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_I_1_prefab.prefab
+  artifactKey: Guid(931ecb32d754b3f40afc9a688c8cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_I_1_prefab.prefab using Guid(931ecb32d754b3f40afc9a688c8cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd844e5d66c4f39d6253e093ef63cbfe') in 0.027950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Simple city plain/Mesh/Pot_tree.fbx
+  artifactKey: Guid(495aba848fd785f43bf771270ddea3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Pot_tree.fbx using Guid(495aba848fd785f43bf771270ddea3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47ff32ceaee055dd86480b51c3b451e') in 0.042374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001769 seconds.
+  path: Assets/Simple city plain/Prefabs/Stone Floor prefab.prefab
+  artifactKey: Guid(ffa4d200e6c7d9c4b90b3764b7ed86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Stone Floor prefab.prefab using Guid(ffa4d200e6c7d9c4b90b3764b7ed86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575382ea42298e421d67947f67a3d079') in 0.016354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple city plain/Mesh/Building_I_1.fbx
+  artifactKey: Guid(a31ede3a68c1fc642a73d7ab6870b43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_I_1.fbx using Guid(a31ede3a68c1fc642a73d7ab6870b43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8c310bff523ff29a5cff7d01798c26') in 0.062794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Simple city plain/Mesh/Building_I_2.fbx
+  artifactKey: Guid(9f70c3b25552f8c4cbfc2dc5b60b2c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_I_2.fbx using Guid(9f70c3b25552f8c4cbfc2dc5b60b2c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304e3ea7cf08526659c3f6631cd70d8') in 0.057598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Simple city plain/Mesh/street_lamp 1.fbx
+  artifactKey: Guid(be2c575b59c07d54e937a759af1f404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/street_lamp 1.fbx using Guid(be2c575b59c07d54e937a759af1f404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a9dc768aaaa2790b25d0ca35e45a8e') in 0.025643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Simple city plain/Mesh/bench.fbx
+  artifactKey: Guid(2c2a46e9474367f42af1fdbfcc3c2434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/bench.fbx using Guid(2c2a46e9474367f42af1fdbfcc3c2434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973aa220c16ae683c55d1fb0cb7e84e7') in 0.024082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Simple city plain/Mesh/tree_01.fbx
+  artifactKey: Guid(679283963e23da7408c0cc75a881a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/tree_01.fbx using Guid(679283963e23da7408c0cc75a881a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68ccb23e32e8af9a8b450dc0d9f99cb') in 0.035060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple city plain/Mesh/Big_trash_bin.fbx
+  artifactKey: Guid(221422f7266ae3249b686bbfb5989c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Big_trash_bin.fbx using Guid(221422f7266ae3249b686bbfb5989c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bf0fbd046315d7f4b0faf7eb49bec9') in 0.051448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Simple city plain/Prefabs/bench prefab.prefab
+  artifactKey: Guid(80c5916b9606ce646be16611d9a06d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/bench prefab.prefab using Guid(80c5916b9606ce646be16611d9a06d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a2b1a23eb83cf6f889f1d392552fee') in 0.015510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_M_prefab.prefab
+  artifactKey: Guid(84bb406b82cecb24cb1ffe5d4359339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_M_prefab.prefab using Guid(84bb406b82cecb24cb1ffe5d4359339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0696f2f21071a22d05f393f2220ee362') in 0.018125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Simple city plain/Mesh/Hydrant.fbx
+  artifactKey: Guid(e929ac57e943d3c489f18cb67b6b4ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Hydrant.fbx using Guid(e929ac57e943d3c489f18cb67b6b4ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48ebe9e53a3decba039e0d6f0231e70') in 0.017941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Simple city plain/Mesh/street_.fbx
+  artifactKey: Guid(72e65272e9752d842a914dd27fd86306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/street_.fbx using Guid(72e65272e9752d842a914dd27fd86306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2477f3ba6d91d36ec5779f1f513f219d') in 0.016359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Simple city plain/Prefabs/Street 3 Prefab.prefab
+  artifactKey: Guid(2224b63330275e5478ef024b2913f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Street 3 Prefab.prefab using Guid(2224b63330275e5478ef024b2913f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1982be7d693d0ab5e70fb26fb44a3b') in 0.012903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Simple city plain/Mesh/Gas_station_A.fbx
+  artifactKey: Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Gas_station_A.fbx using Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df19018892292ce66fae8549cdb677c') in 0.030482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_A1_prefab.prefab
+  artifactKey: Guid(562df8355904213468a690c4ce6740b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_A1_prefab.prefab using Guid(562df8355904213468a690c4ce6740b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c491d427384e852b434af83d58e233aa') in 0.017659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple city plain/Prefabs/Pot_tree prefab.prefab
+  artifactKey: Guid(8e00364320862a746a6e67a5af5e5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Pot_tree prefab.prefab using Guid(8e00364320862a746a6e67a5af5e5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212a36b945495bd908e6fc8149258a31') in 0.489126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Simple city plain/Mesh/WalkWay 5.fbx
+  artifactKey: Guid(391ef46e275c80b408f222be809688a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/WalkWay 5.fbx using Guid(391ef46e275c80b408f222be809688a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807fcdb3107cc238cefb5106e75a97ab') in 0.025652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Simple city plain/Prefabs/ColaMachine prefab.prefab
+  artifactKey: Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/ColaMachine prefab.prefab using Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bead396e5e2043dd4f8594be5380635') in 0.023167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_N_Prefab.prefab
+  artifactKey: Guid(bbad862e7e06efe4a8ad0346a53e3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_N_Prefab.prefab using Guid(bbad862e7e06efe4a8ad0346a53e3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b638054bbc8c4074c3d275d428e2e17c') in 0.051619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Simple city plain/Mesh/ColaMachine.fbx
+  artifactKey: Guid(2831f92b409a46f45a21bbde0b1f5107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/ColaMachine.fbx using Guid(2831f92b409a46f45a21bbde0b1f5107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cb24b6a06a8937a8407ed5be37e86a') in 0.025359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab
+  artifactKey: Guid(9a52ba64c3a0abf49ad9515917ade04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab using Guid(9a52ba64c3a0abf49ad9515917ade04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765ba623c6e6a668eb39346ed543e18a') in 0.040462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Simple city plain/Prefabs/Tree prefab.prefab
+  artifactKey: Guid(1be61187b5d765449be824463642cb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Tree prefab.prefab using Guid(1be61187b5d765449be824463642cb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd4eb0d6d3eb03085d10acce0d89858') in 0.020566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Simple city plain/Prefabs/Grass Prefab.prefab
+  artifactKey: Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Grass Prefab.prefab using Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6051853d4d721fce436c31e105801365') in 0.027337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Simple city plain/scene/Demo Scene.unity
+  artifactKey: Guid(79f8bac4c75da6e43bd8288f7d84106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/scene/Demo Scene.unity using Guid(79f8bac4c75da6e43bd8288f7d84106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592c37cad80192ad19ae7475f55c93a5') in 0.001236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple city plain/Prefabs/Sideway Prefab.prefab
+  artifactKey: Guid(a9da80f587bbf9046aefc4a4cfb8a7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Sideway Prefab.prefab using Guid(a9da80f587bbf9046aefc4a4cfb8a7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2942b7d2b6fdac8af4ccabca71dba2b') in 0.724131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Simple city plain/Mesh/Building_A1.fbx
+  artifactKey: Guid(e48ed78ee18a85b4ab1b16c0f67824b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_A1.fbx using Guid(e48ed78ee18a85b4ab1b16c0f67824b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6a51063048b68057fd90c56a760ace') in 0.287145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Simple city plain/Mesh/Shop_B.fbx
+  artifactKey: Guid(82fffc905fad13948a591b76e545791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Shop_B.fbx using Guid(82fffc905fad13948a591b76e545791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2218cde7025d6aadad34c019d29da41a') in 0.048152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Simple city plain/Mesh/Building_N.fbx
+  artifactKey: Guid(55ca7edad2f1e3b40b4dc5801b9f454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_N.fbx using Guid(55ca7edad2f1e3b40b4dc5801b9f454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a8aca57cc5306822234cff47b4c327') in 0.052018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Simple city plain/Mesh/Building_M.fbx
+  artifactKey: Guid(33a58fa9897d81c4fa6655fc4a19a500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_M.fbx using Guid(33a58fa9897d81c4fa6655fc4a19a500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9856dff535f833b2b7c1265dba55fb') in 0.038938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple city plain/Prefabs/street_lamp 1 prefab.prefab
+  artifactKey: Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/street_lamp 1 prefab.prefab using Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40367e85517c6c9ea9ac4f2e97a2773') in 0.023992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Simple city plain/Prefabs/Big_trash_bin prefab.prefab
+  artifactKey: Guid(331560f2206dc024cb084301a19c05ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Big_trash_bin prefab.prefab using Guid(331560f2206dc024cb084301a19c05ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8c02bacdf9aacdea6fddfad3db08a3') in 0.021832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
