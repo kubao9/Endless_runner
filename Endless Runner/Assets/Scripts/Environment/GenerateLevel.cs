@@ -7,10 +7,17 @@ using UnityEngine;
 public class GenerateLevel : MonoBehaviour
 {
     public GameObject[] section;
+    public GameObject starterSection;
     public int zPos = 0;
     public bool creatingSection = false;
     public int secNum;
 
+
+    private void Start()
+    {
+        Instantiate(starterSection, new Vector3(0,0, zPos), Quaternion.identity);
+        zPos += 96;
+    }
     void Update()
     {
         if (creatingSection == false)
@@ -25,7 +32,7 @@ public class GenerateLevel : MonoBehaviour
         secNum = Random.Range(0, 3);
         Instantiate(section[secNum], new Vector3(0, 0, zPos), Quaternion.identity);
         zPos += 96;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(6);
         creatingSection = false;
     }
 }
