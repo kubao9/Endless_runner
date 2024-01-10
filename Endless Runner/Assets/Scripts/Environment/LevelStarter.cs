@@ -32,5 +32,6 @@ public class LevelStarter : MonoBehaviour
         countDownTextGo.SetActive(true);
         goSound.Play();
         PlayerMove.canMove = true;
+        LevelDistance.addingDistance = false;
     }
 }
