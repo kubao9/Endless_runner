@@ -15,7 +15,7 @@ public class GenerateLevel : MonoBehaviour
 
     private void Start()
     {
-        Instantiate(starterSection, new Vector3(0,0, zPos), Quaternion.identity);
+        Instantiate(starterSection, new Vector3(0, 0, zPos), Quaternion.identity);
         zPos += 96;
     }
     void Update()
@@ -25,6 +25,8 @@ public class GenerateLevel : MonoBehaviour
             creatingSection = true;
             StartCoroutine(GenerateSection());
         }
+
+
     }
 
     IEnumerator GenerateSection()
@@ -32,7 +34,9 @@ public class GenerateLevel : MonoBehaviour
         secNum = Random.Range(0, 3);
         Instantiate(section[secNum], new Vector3(0, 0, zPos), Quaternion.identity);
         zPos += 96;
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(8);
         creatingSection = false;
+
     }
 }
+ 

@@ -19,7 +19,7 @@ public class LevelStarter : MonoBehaviour
 
     IEnumerator CountSequence()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1f);
         countDownText3.SetActive(true);
         countingSound.Play();
         yield return new WaitForSeconds(1);
