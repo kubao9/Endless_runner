@@ -11,8 +11,6 @@ public class MainMenuFunction : MonoBehaviour
         ObstacleCollision.isCollision = false;
         LevelDistance.addingDistance = true;
         PlayerMove.canMove = false;
-
-
     }
 
     // Update is called once per frame
