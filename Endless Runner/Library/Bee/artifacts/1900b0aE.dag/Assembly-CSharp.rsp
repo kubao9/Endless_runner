@@ -353,6 +353,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Collectables/LevelDistance.cs"
+"Assets/Scripts/Environment/Destroyer.cs"
 "Assets/Scripts/Environment/GenerateLevel.cs"
 "Assets/Scripts/Environment/LevelBoundary.cs"
 "Assets/Scripts/Environment/LevelEndScreen.cs"
