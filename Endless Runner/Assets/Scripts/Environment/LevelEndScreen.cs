@@ -10,15 +10,25 @@ public class LevelEndScreen : MonoBehaviour
     public GameObject fadeEnd;
     public GameObject endScoreDisplay;
     public GameObject distanceDisplay;
+    public GameObject coinDisplay;
     public Text textYourRunScore;
     public Text textGameOver;
-    public static string yourRunScore = "Your run score:";
+    public Text textCoinsCollected;
+    public Text textTotalScore;
+    public static string yourRunScore = "Your run distance:";
     public static string gameOver= "Game Over";
+    public static string coinsCollected = "Coins Collected:";
+    public static string totalScore = "Total Score:";
+
+
 
     void Start()
     {
         textYourRunScore.text = yourRunScore;
         textGameOver.text = gameOver;
+        textCoinsCollected.text = coinsCollected;
+        textTotalScore.text = totalScore;
+
     }
     void Update()
     {
@@ -34,6 +44,7 @@ public class LevelEndScreen : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         fadeEnd.SetActive(true);
         distanceDisplay.SetActive(false);
+        coinDisplay.SetActive(false);
         yield return new WaitForSeconds(1);
         endScoreDisplay.SetActive(true);
         yield return new WaitForSeconds(3);

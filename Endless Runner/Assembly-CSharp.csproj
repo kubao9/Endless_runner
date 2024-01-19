@@ -63,8 +63,10 @@
     <Compile Include="Assets\Scripts\Environment\ObstacleCollision.cs" />
     <Compile Include="Assets\Scripts\Environment\GenerateLevel.cs" />
     <Compile Include="Assets\Scripts\Menu\MainMenuFunction.cs" />
+    <Compile Include="Assets\Scripts\Collectables\CollectCoin.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelStarter.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelBoundary.cs" />
+    <Compile Include="Assets\Scripts\Collectables\RotateObj.cs" />
     <Compile Include="Assets\Scripts\Menu\LanguageMenuFunctionality.cs" />
     <Compile Include="Assets\Scripts\Collectables\LevelDistance.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />

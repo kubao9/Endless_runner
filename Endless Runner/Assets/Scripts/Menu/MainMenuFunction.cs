@@ -23,6 +23,8 @@ public class MainMenuFunction : MonoBehaviour
         ObstacleCollision.isCollision = false;
         LevelDistance.addingDistance = true;
         PlayerMove.canMove = false;
+        LevelDistance.coinAmount = 0;
+        LevelDistance.total = 0;
     }
 
     public void PlayGame()
