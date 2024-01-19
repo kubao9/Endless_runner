@@ -9,27 +9,24 @@ public class LanguageMenuFunctionality : MonoBehaviour
 {
     public void English()
     {
-        MainMenuFunction.textPlayButton = "Play";
-        MainMenuFunction.textHowToPlay = "How to play";
-        MainMenuFunction.textLanguage = "Language";
-        MainMenuFunction.textQuit = "Quit";
-
-        LevelEndScreen.yourRunScore = "Your run score:";
-        LevelEndScreen.gameOver = "Game Over";
-
+        LanguageChanger("Play", "How to play", "Language", "Quit", "Your run score:", "Game Over");
         SceneManager.LoadScene(0);
     }
 
     public void Polski()
     {
-        MainMenuFunction.textPlayButton = "Graj";
-        MainMenuFunction.textHowToPlay = "Jak graæ";
-        MainMenuFunction.textLanguage = "Jêzyk";
-        MainMenuFunction.textQuit = "WyjdŸ z gry";
-
-        LevelEndScreen.yourRunScore = "Twój wynik:";
-        LevelEndScreen.gameOver = "Koniec Gry";
-
+        LanguageChanger("Graj", "Jak graæ", "Jêzyk", "WyjdŸ z gry", "Twój wynik:", "Koniec Gry");
         SceneManager.LoadScene(0);
+    }
+
+    public void LanguageChanger(string play, string howtoplay, string language, string quit, string yourrunscore, string gameover)
+    {
+        MainMenuFunction.textPlayButton = play;
+        MainMenuFunction.textHowToPlay = howtoplay;
+        MainMenuFunction.textLanguage = language;
+        MainMenuFunction.textQuit = quit;
+
+        LevelEndScreen.yourRunScore = yourrunscore;
+        LevelEndScreen.gameOver = gameover;
     }
 }
