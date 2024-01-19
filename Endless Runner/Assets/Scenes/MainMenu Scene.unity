@@ -38961,7 +38961,7 @@ GameObject:
   - component: {fileID: 1085856646}
   - component: {fileID: 1085856645}
   m_Layer: 5
-  m_Name: Language Button
+  m_Name: LanguageButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39030,7 +39030,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1085856646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1866946362}
+        m_TargetAssemblyTypeName: MainMenuFunction, Assembly-CSharp
+        m_MethodName: Language
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1085856646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64995,7 +65007,7 @@ GameObject:
   - component: {fileID: 1800191920}
   - component: {fileID: 1800191919}
   m_Layer: 5
-  m_Name: How to play Button
+  m_Name: HowToPlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77261,7 +77273,7 @@ GameObject:
   - component: {fileID: 2114455267}
   - component: {fileID: 2114455266}
   m_Layer: 5
-  m_Name: Quit Button
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
