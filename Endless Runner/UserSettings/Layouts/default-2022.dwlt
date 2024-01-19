@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 110
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.07672768, y: -0.008974294, z: 0.00058087363, w: -0.9970693}
     speed: 2
-    m_Value: {x: -0.07672326, y: -0.008973777, z: 0.00058084016, w: -0.9970119}
+    m_Value: {x: -0.07672768, y: -0.008974294, z: 0.00058087363, w: -0.9970693}
   m_Size:
     m_Target: 712.42883
     speed: 2
@@ -725,7 +725,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ac87f2ffd876f5ffc45cf8ffc65ff8ffca5ff8ff1869f8ff166cf8ff8871f8ff6674f8ff3ae3fdff30fbffff685b0000785c0000e261000074620000646700003e6900005c6e00005a7400009c7f00004c810000a48b0000d28c000028990000929f0000a8a600008aab0000e6ca0100
+      m_ExpandedIDs: b808ffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -892,7 +892,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Images
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -900,16 +900,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Images
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jakub\Desktop\GitHub\Endless_runner\Endless Runner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 51}
-    m_SelectedIDs: 76b60000
-    m_LastClickedID: 46710
-    m_ExpandedIDs: 000000002eb6000030b6000032b6000034b6000036b6000038b600003ab600003cb600003eb6000040b600006ab6000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: cebb0000
+    m_LastClickedID: 48078
+    m_ExpandedIDs: 00000000cabb0000ccbb0000cebb0000d0bb0000d2bb0000d4bb0000d6bb0000d8bb0000dabb0000dcbb000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -937,7 +937,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002eb6000030b6000032b6000034b6000036b6000038b600003ab600003cb600003eb6000040b60000
+    m_ExpandedIDs: 00000000cabb0000ccbb0000cebb0000d0bb0000d2bb0000d4bb0000d6bb0000d8bb0000dabb0000dcbb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
