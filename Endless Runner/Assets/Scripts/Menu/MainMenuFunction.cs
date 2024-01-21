@@ -25,6 +25,7 @@ public class MainMenuFunction : MonoBehaviour
         PlayerMove.canMove = false;
         LevelDistance.coinAmount = 0;
         LevelDistance.total = 0;
+        LevelEndScreen.oneTime = false;
     }
 
     public void PlayGame()
@@ -42,5 +43,9 @@ public class MainMenuFunction : MonoBehaviour
         Application.Quit();
     }
 
+    public void HowToPlay()
+    {
+        SceneManager.LoadScene(3);
+    }
   
 }

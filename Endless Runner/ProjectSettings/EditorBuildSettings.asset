@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LanguageScene.unity
     guid: 074e4b22bfd2c6a4487c3cd2675be1cc
+  - enabled: 1
+    path: Assets/Scenes/HowToPlayScene.unity
+    guid: f7b35733c80f38a4085c03153379b536
   m_configObjects: {}

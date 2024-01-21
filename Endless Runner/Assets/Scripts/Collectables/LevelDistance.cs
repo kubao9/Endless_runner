@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,8 +19,8 @@ public class LevelDistance : MonoBehaviour
     public static float distanceDelay = 0.35f;
     void Update()
     {
-        coinDisplay.GetComponent<Text>().text = "" + coinAmount;
-        coinEndDisplay.GetComponent<Text>().text = "" + coinAmount;
+        coinDisplay.GetComponent<TMP_Text>().text = "" + coinAmount;
+        coinEndDisplay.GetComponent<TMP_Text>().text = "" + coinAmount;
         if (ObstacleCollision.isCollision == false)
         {
             if (addingDistance == false)
@@ -29,15 +30,15 @@ public class LevelDistance : MonoBehaviour
             }
         }
         total = coinAmount + distanceRun;
-        totalScore.GetComponent<Text>().text = "" + total;
+        totalScore.GetComponent<TMP_Text>().text = "" + total;
 
     }
 
     IEnumerator AddingDistance()
     {
         distanceRun += 1;
-        distanceDisplay.GetComponent<Text>().text = "" + distanceRun;
-        distanceEndDisplay.GetComponent<Text>().text = "" + distanceRun;
+        distanceDisplay.GetComponent<TMP_Text>().text = "" + distanceRun;
+        distanceEndDisplay.GetComponent<TMP_Text>().text = "" + distanceRun;
         yield return new WaitForSeconds(distanceDelay);
         addingDistance=false;
     }

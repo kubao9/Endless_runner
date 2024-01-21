@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Collectables\CollectCoin.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelStarter.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelBoundary.cs" />
+    <Compile Include="Assets\Scripts\Menu\HowToPlayScript.cs" />
     <Compile Include="Assets\Scripts\Collectables\RotateObj.cs" />
     <Compile Include="Assets\Scripts\Menu\LanguageMenuFunctionality.cs" />
     <Compile Include="Assets\Scripts\Collectables\LevelDistance.cs" />

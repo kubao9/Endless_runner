@@ -361,6 +361,7 @@
 "Assets/Scripts/Environment/LevelEndScreen.cs"
 "Assets/Scripts/Environment/LevelStarter.cs"
 "Assets/Scripts/Environment/ObstacleCollision.cs"
+"Assets/Scripts/Menu/HowToPlayScript.cs"
 "Assets/Scripts/Menu/LanguageMenuFunctionality.cs"
 "Assets/Scripts/Menu/MainMenuFunction.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
